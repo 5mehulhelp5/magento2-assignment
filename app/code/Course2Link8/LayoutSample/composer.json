@@ -1,0 +1,17 @@
+{
+    "name": "course2link8/layoutsample",
+    "description": "",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Course2Link8\\LayoutSample\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="injectables_block" template="Course2Link23_InjectablesAnsNoninjectables::injectables.phtml">
+                <arguments>
+                    <argument name="view_model" xsi:type="object">
+                        Course2Link23\InjectablesAnsNoninjectables\Viewmodel\Example
+                    </argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>layout example</title>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block name="something_eg" class="Magento\Framework\View\Element\Template" template="Course2Link8_LayoutSample::contents.phtml"></block>
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block name="something_eg2" class="Course2Link8\LayoutSample\Block\Layout\Index" template="Course2Link8_LayoutSample::contents.phtml"></block>
+        </referenceContainer>
+    </body>
+</page>

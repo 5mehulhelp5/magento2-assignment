@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Course2Link15_CssJs::css/default.css"/>
+        <script src="Course2Link15_CssJs::js/default.js"/>
+    </head>
+    <body>
+    </body>
+</page>
+
+<!--default.xml is a special file that includes in every page-->

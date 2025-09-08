@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="customer.new" remove="true"> <!-- customer.new is the name of that block which we got after locking in the vendor folder. display="false" can be also used. remove removes the component from rendering thus css can be a issue  -->
+        </referenceBlock>
+    </body>
+</page>

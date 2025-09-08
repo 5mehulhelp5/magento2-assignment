@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+
+    <widget id="course2link11_widgetsample" class="Course2Link11\WidgetSample\Block\Widget\Title">
+        <label translate="true">My Custom Widget</label>
+        <description translate="true">Displays a custom title</description>
+
+        <parameters>
+            <parameter name="title" xsi:type="text">
+                <label translate="true">Widget Title</label>
+            </parameter>
+        </parameters>
+    </widget>
+
+</widgets>
