@@ -8,7 +8,7 @@ class Example extends \Magento\Framework\View\Element\Template
 {
     /**
      * @param \Magento\Framework\View\Element\Template\Context $context
-     * @param array $data
+     * @param array                                            $data
      */
     public function __construct(
         Main $main,

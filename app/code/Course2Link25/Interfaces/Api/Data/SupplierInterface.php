@@ -7,7 +7,7 @@ interface SupplierInterface
     /**
      * Undocumented function
      *
-     * @param [type] $param
+     * @param  [type] $param
      * @return string
      */
     public function methodName($param);

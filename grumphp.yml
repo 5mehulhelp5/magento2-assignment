@@ -8,7 +8,14 @@ grumphp:
         - /^vendor\//
         - /^generated\//
         - /^pub\//
-        - /^app\//
+        - /^app\/bootstrap\.php$/
+        - /^app\/autoload\.php$/
+        - /^app\/etc\//
+        - /^app\/code\/Course2.*/
+        - /^app\/code\/DependencyInjection/
+        - /^app\/code\/Proxy/
+        - /^app\/design\/frontend\/Course2.*/
+        - /^app\/design\/adminhtml\/Course2.*/
         - /^phpserver\//
         - /^bin\//
         - /^var\//
