@@ -6,7 +6,9 @@ use Course2Link38\DispatchEventExample\Block\Example;
 
 class ContentExample implements \Magento\Framework\Event\ObserverInterface
 {
-    public function __construct() {}
+    public function __construct()
+    {
+    }
 
     public function execute(\Magento\Framework\Event\Observer $observer)
     {
