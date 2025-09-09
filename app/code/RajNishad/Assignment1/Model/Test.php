@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Copyright 2024 Adobe
+ * All Rights Reserved.
+ */
+
 namespace RajNishad\Assignment1\Model;
 
 use Magento\Catalog\Api\Data\CategoryInterface;
@@ -45,12 +50,15 @@ class Test
      */
     public function displayParams()
     {
-        echo "<h3>String Parameter:</h3>";
-        echo "<p>" . $this->stringParam . "</p>";
+        $arrayContent = "<ul>\n";
+        foreach ($this->dataArray as $key => $value) {
+            $arrayContent .= "<li><strong>{$key}:</strong> {$value}</li>\n";
+        }
+        $arrayContent .= "</ul>";
 
-        echo "<h3>Array Parameter:</h3>";
-        echo "<pre>";
-        print_r($this->dataArray);
-        echo "</pre>";
+        $ans = "<h3>String Parameter:</h3>\n<p>" . $this->stringParam . "</p>\n"
+            . "<h3>Array Parameter:</h3>\n" . $arrayContent;
+
+        return $ans;
     }
 }

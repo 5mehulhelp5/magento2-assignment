@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Copyright 2024 Adobe
+ * All Rights Reserved.
+ */
+
 namespace RajNishad\Assignment1\Controller\Index;
 
 use Magento\Framework\App\Action\Action;
@@ -38,11 +43,9 @@ class Index extends Action
         /** @var \Magento\Framework\Controller\Result\Raw $result */
         $result = $this->resultFactory->create(ResultFactory::TYPE_RAW);
 
-        ob_start();
-        $this->testModel->displayParams();
-        $output = ob_get_clean();
+        $ans = $this->testModel->displayParams();
 
-        $result->setContents($output);
+        $result->setContents($ans);
 
         return $result;
     }
