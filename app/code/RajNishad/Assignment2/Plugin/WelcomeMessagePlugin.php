@@ -10,6 +10,8 @@ namespace RajNishad\Assignment2\Plugin;
 class WelcomeMessagePlugin
 {
     /**
+     * Updating Header
+     *
      * @param \Magento\Theme\Block\Html\Header $subject
      * @param string $result
      * @return string

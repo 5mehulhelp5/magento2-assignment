@@ -10,6 +10,8 @@ namespace RajNishad\Assignment2\Plugin;
 class CopyrightPlugin
 {
     /**
+     * Customize the footer copyright text.
+     *
      * @param \Magento\Theme\Block\Html\Footer $subject
      * @param string $result
      * @return string
